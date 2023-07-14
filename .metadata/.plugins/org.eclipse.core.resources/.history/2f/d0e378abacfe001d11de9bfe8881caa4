@@ -1,0 +1,31 @@
+package programmers;
+
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
+public class Nn {
+	public static void main(String[] args) {
+
+		int[] people = {50,70, 50, 80};
+		int limit = 100;
+		
+		Arrays.sort(people);
+		
+		System.out.println(Arrays.toString(people));
+		
+		int sum = 0;
+		int cnt = people.length;
+		
+		for(int i = 0; i < people.length; i++) {
+			sum += people[i];
+			if(sum >= limit) {
+				cnt--;
+				sum = 0;
+				i--;
+			}
+		}
+		
+		System.out.println(cnt);
+	} //
+} //

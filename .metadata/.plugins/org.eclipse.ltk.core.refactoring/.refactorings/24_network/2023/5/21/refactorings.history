@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;n3_udp.UDTClientExample&apos; to &apos;UDPClientExample&apos;&#x0D;&#x0A;- Original project: &apos;24_network&apos;&#x0D;&#x0A;- Original element: &apos;n3_udp.UDTClientExample&apos;&#x0D;&#x0A;- Renamed element: &apos;n3_udp.UDPClientExample&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;UDTClientExample&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;n3_udp{UDTClientExample.java[UDTClientExample" matchStrategy="1" name="UDPClientExample" qualified="false" references="true" similarDeclarations="false" stamp="1684808243979" textual="false" version="1.0"/>
+</session>

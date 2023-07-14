@@ -1,0 +1,13 @@
+package extends2_override;
+
+public class Computer extends Calculator {
+	// alt + s + v	: 재정의 method 선택 창
+	
+	@Override
+	double circleArea(double radius) {
+		//return super.circleArea(radius);
+		return radius * radius * Math.PI;
+	}
+
+	
+}

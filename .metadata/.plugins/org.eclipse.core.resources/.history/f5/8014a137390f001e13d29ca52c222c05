@@ -1,0 +1,7 @@
+package potato;
+
+public class Potato {
+	String name;
+	int age;
+	double height;
+}

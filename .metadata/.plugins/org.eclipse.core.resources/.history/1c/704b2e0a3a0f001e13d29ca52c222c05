@@ -1,0 +1,10 @@
+package potato;
+
+public class GreenPotato extends Potato {
+	
+
+	GreenPotato(){
+		System.out.println("똑바로 해라 사장");
+	}
+
+}

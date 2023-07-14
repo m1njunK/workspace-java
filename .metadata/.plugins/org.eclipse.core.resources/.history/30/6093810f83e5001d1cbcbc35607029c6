@@ -1,0 +1,5 @@
+package extends2_override;
+
+public class Calculator {
+
+}

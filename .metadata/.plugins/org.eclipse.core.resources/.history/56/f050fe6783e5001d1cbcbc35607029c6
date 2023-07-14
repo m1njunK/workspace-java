@@ -1,0 +1,9 @@
+package extends2_override;
+
+public class Calculator {
+
+	public double corcleArea(double radius) {
+		return radius * radius * 3.14;
+	}
+	
+}
